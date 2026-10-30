@@ -1,0 +1,65 @@
+---
+title: "Proyecto grupal: Valoración de instrumentos financieros I"
+author: "Alexandra González, Estefanía Mora y César Salazar"
+format:
+  beamer:
+    theme: default
+    lang: es
+    toc: false
+    aspectratio: 169
+    slide-number: true
+    navigation: empty
+    fontsize: 10pt
+    number-sections: false
+    include-in-header:
+            text: |
+                \usepackage{lmodern}
+                \renewcommand{\familydefault}{\sfdefault}
+                \definecolor{mNavy}{HTML}{1E2761}
+                \definecolor{mGold}{HTML}{C99A2E}
+                \definecolor{mIce}{HTML}{CADCFC}
+                \definecolor{mBg}{HTML}{EFF4FC}
+                \setbeamercolor{title}{fg=white,bg=mNavy}
+                \setbeamercolor{frametitle}{fg=white,bg=mNavy}
+                \setbeamercolor{normal text}{fg=mNavy,bg=white}
+                \setbeamercolor{structure}{fg=mGold}
+                \setbeamercolor{itemize item}{fg=mGold}
+                \setbeamercolor{itemize subitem}{fg=mGold}
+                \setbeamercolor{block title}{fg=mNavy,bg=mIce}
+                \setbeamercolor{block body}{fg=mNavy,bg=mBg}
+                \setbeamertemplate{footline}[frame number]
+                \setbeamerfont{frametitle}{series=\bfseries}
+                \setbeamerfont{author}{size=\small, series=\itshape}
+                \setlength{\parskip}{0.8cm}
+---
+
+## Caso asignado: Starlink en India
+
+- *Publicación del artículo*: año 2026 
+
+- *Autoría*: Suvodip Sen \vspace{0.3cm}
+
+- *Starlink*: una constelación satelital que utiliza una órbita terrestre baja para ofrecer internet de banda ancha.
+
+
+
+
+## Contextualización de la empresa 
+
+
+
+
+
+## Problema que plantea el caso
+
+
+
+
+
+## 
+
+
+
+
+
+
