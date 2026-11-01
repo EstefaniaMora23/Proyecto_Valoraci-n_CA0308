@@ -22,6 +22,9 @@ format:
                 \setbeamerfont{author}{size=\small, series=\itshape}
                 \setlength{\parskip}{0.8cm}
                 \usepackage{xurl}
+                \usepackage{fontspec}
+                \newfontfamily\rupeafont{Noto Sans}
+              
 ---
 
 ## Caso asignado: Starlink en India
@@ -73,8 +76,62 @@ Principales desafíos:
 - El precio de Starlink era entre 10 y 14 veces superior al de los proveedores locales.  
 
 
+## El mercado en la fecha de corte 
 
-## 
+
+## La variable de riesgo: el tipo de cambio USD/INR
+
+
+## La posición de la empresa
+
+:::: columns 
+::: column
+\vspace{0.2cm}
+\small
+- SpaceX asume costos en dólares y percibe ingresos en rupias. \vspace{0.3cm}
+ 
+- La empresa asume una **posición corta** desde la perspectiva de las **rupias**: necesita vender las rupias que ingresan. \vspace{0.3cm}
+
+- La empresa adopta una **posición larga** desde la perspectiva de los **dólares**: requiere adquirir dólares para cubrir sus gastos. \vspace{0.3cm}
+
+- Cuando el precio sube, el dólar se aprecia, la empresa pierde dinero. 
+:::
+::: column
+\vspace{1.3cm}
+\centering
+\includegraphics[width=5.3cm]{dolar_rupia.png}
+\vfill
+:::
+::::
+
+## El dinero de la empresa y el precio de la variable de riesgo
+
+
+## Análisis de sensibilidad: modificación del tipo cambio en ±10%
+
+
+## Análisis de sensibilidad: modificación del tipo cambio en ±20% 
+
+
+## Análisis de sensibilidad: modificación del tipo cambio en ±30%
+
+\begin{table}[ht]
+\centering
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{lrrr}
+\hline
+\textbf{Dato} & \textbf{S0 - 30 \%} & \textbf{Base} & \textbf{S0 + 30 \%} \\
+\hline
+Tipo de cambio &  61,6 & 88 & 114,4 \\
+Ingreso neto año 1 &  {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210  & {\rupeafont ₹}6.933.906.210  \\
+Ingreso neto año 1 & \$112.563.412,50 & \$78.794.388,75 & \$60.611.068,27 \\
+Total costos  & \$18.120.950,94 & \$18.120.950,94 & \$18.120.950,94 \\
+Cambio del ingreso  & \$33.769.023,75 & \$0,00 & -\$18.183.320,48 \\
+Cambio porcentual del ingreso & 42,86 \% & 0,00 \% & -23,08 \% \\
+\hline
+\end{tabular}
+\end{table}
 
 
 
