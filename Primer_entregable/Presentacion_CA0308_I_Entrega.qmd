@@ -108,6 +108,9 @@ Principales desafíos:
 
 ::::
 
+
+## La variable de riesgo: el tipo de cambio USD/INR
+
 ## Evolución del tipo de cambio USD/INR
 
 \small
@@ -138,9 +141,6 @@ Principales desafíos:
 :::
 
 ::::
-
-
-## La variable de riesgo: el tipo de cambio USD/INR
 
 
 ## La posición de la empresa
