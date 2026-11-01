@@ -73,11 +73,70 @@ Principales desafíos:
 - El precio de Starlink era entre 10 y 14 veces superior al de los proveedores locales.  
 
 
+## El mercado en la fecha de corte
 
-## 
+\small
+
+:::: {.columns align="top"}
+
+::: {.column width="50%"}
+
+\vspace{0.30cm}
+
+- **Precios estimados**: equipo de INR 25 000–35 000 y mensualidad de INR 5 000–7 000, sin confirmación oficial. Planes locales desde INR 399 mensuales. \vspace{0.3cm}
+
+- **Plan del modelo**: cuota empresarial de INR 10 469 mensuales. \vspace{0.3cm}
+
+- **Tasas**: India redujo la tasa repo de 6,25 % a 6,00 % el 9 de abril. Estados Unidos mantenía un rango de 4,25 %–4,50 %.
+
+:::
+
+::: {.column width="50%"}
+
+\vspace{0.30cm}
+
+- **Regulación**: autorizaciones pendientes y discusión sobre asignación, cargos y duración del espectro. Starlink solicitaba 20 años. \vspace{0.3cm}
+
+- **Competencia**: Jio y Airtel tenían infraestructura, clientes y alianzas satelitales con SES y OneWeb, respectivamente. \vspace{0.3cm}
+
+- **Alianzas**: Jio y Airtel facilitarían la distribución de Starlink, aunque también participaban en proyectos competidores.
+
+:::
+
+::::
 
 
+## Evolución del tipo de cambio USD/INR
 
+\small
 
+:::: {.columns align="center"}
 
+::: {.column width="40%"}
 
+\vspace{0.30cm}
+
+- **Serie diaria**: enero de 2022 a abril de 2025. \vspace{0.25cm}
+
+- **Base del modelo**: USD/INR de 88, según el caso. \vspace{0.25cm}
+
+- **Cierre de abril**: USD/INR de 84,49. \vspace{0.25cm}
+
+- **Riesgo cambiario**: una subida del USD/INR aumenta los costos en rupias de las obligaciones en dólares, con ingresos en rupias constantes.
+
+:::
+
+::: {.column width="60%"}
+
+\vspace{0.30cm}
+
+\centering
+\includegraphics[width=\linewidth]{tipo_de_cambio.png}
+
+:::
+
+::::
+
+## Análisis de sensibilidad
+
+\normalsize
