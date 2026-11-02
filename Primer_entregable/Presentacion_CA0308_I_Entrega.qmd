@@ -4,8 +4,7 @@ subtitle: "Primer entregable: contexto y exposición al riesgo"
 author: "Alexandra González, Estefanía Mora y César Salazar"
 format:
   beamer:
-    theme: CambridgeUS
-    colortheme: seahorse
+    theme: moloch
     toc: false
     aspectratio: 169
     slide-number: true
