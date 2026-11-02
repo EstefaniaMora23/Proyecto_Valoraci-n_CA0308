@@ -78,9 +78,7 @@ format:
 
 - **Precios estimados**: equipo de 25 000 a 35 000 rupias y mensualidad de 5 000 a 7 000 rupias, sin confirmación oficial. Planes locales desde 399 rupias mensuales. \vspace{0.3cm}
 
-- **Plan del modelo**: cuota empresarial de 10 469 rupias mensuales. \vspace{0.6cm}
-
-- **Tasas**: India redujo la tasa repo de 6,25 % a 6,00 % el 9 de abril. Estados Unidos mantenía un rango de 4,25 % a 4,50 %. \vspace{0.6cm} 
+- **Tasas**: India redujo la tasa de operaciones de recompra del banco central de 6,25 % a 6,00 % el 9 de abril. Estados Unidos mantenía un rango de 4,25 % a 4,50 %. \vspace{0.6cm} 
 
 :::
 
