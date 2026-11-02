@@ -21,6 +21,7 @@ format:
 :::: columns
 ::: column
 \vspace{0.7cm}
+
 - **Publicación del artículo**: año 2026 \vspace{0.7cm}
 
 - **Autoría**: Suvodip Sen \vspace{0.7cm}
@@ -38,15 +39,15 @@ format:
 ## Contextualización de la empresa: SpaceX 
 ###
 \small
+\vspace{0.3cm}
 - Empresa estadounidense fundada por Elon Musk en el año 2002, cuya sede se sitúa en California. \vspace{0.3cm}
 
 - **Negocio**: la fabricación de naves espaciales, la prestación de servicios de lanzamiento y las comunicaciones por satélite. \vspace{0.3cm}
 
 - **Clientes**: ha mantenido contratos con la NASA, el Departamento de Guerra de los Estados Unidos, la línea de cruceros Carnival, la compañía ferroviaria Brightline y la cadena de tiendas Casey's. \vspace{0.3cm}
 
-###
 \centering
-\includegraphics[width=5cm]{spacex.jpg}
+\includegraphics[width=6cm]{spacex.jpg}
 
 ## Problema que plantea el caso
 ### 
@@ -54,7 +55,7 @@ format:
 **El desafío estratégico que enfrentó Starlink al ingresar al mercado de internet satelital de India en el año 2025.**  \vspace{0.3cm}
 
 ###
-Principales desafíos: 
+**Principales desafíos:**
 \small
 
 - Un sector de telecomunicaciones altamente competitivo.  
@@ -68,24 +69,23 @@ Principales desafíos:
 
 
 ## El mercado en la fecha de corte 
-\small
 
 :::: {.columns align="top"}
 
 ::: {.column width="50%"}
-
+\small
 \vspace{0.30cm}
 
 - **Precios estimados**: equipo de 25 000 a 35 000 rupias y mensualidad de 5 000 a 7 000 rupias, sin confirmación oficial. Planes locales desde 399 rupias mensuales. \vspace{0.3cm}
 
-- **Plan del modelo**: cuota empresarial de 10 469 rupias mensuales. \vspace{0.3cm}
+- **Plan del modelo**: cuota empresarial de 10 469 rupias mensuales. \vspace{0.6cm}
 
-- **Tasas**: India redujo la tasa repo de 6,25% a 6,00% el 9 de abril. Estados Unidos mantenía un rango de 4,25% a 4,50%.
+- **Tasas**: India redujo la tasa repo de 6,25 % a 6,00 % el 9 de abril. Estados Unidos mantenía un rango de 4,25 % a 4,50 %. \vspace{0.6cm} 
 
 :::
 
 ::: {.column width="50%"}
-
+\small
 \vspace{0.30cm}
 
 - **Regulación**: autorizaciones pendientes y discusión sobre asignación, cargos y duración del espectro. Starlink solicitaba 20 años. \vspace{0.3cm}
@@ -97,6 +97,7 @@ Principales desafíos:
 :::
 
 ::::
+
 
 
 ## La variable de riesgo: el tipo de cambio USD/INR
@@ -136,7 +137,7 @@ Principales desafíos:
 
 \vspace{0.5cm}
 \centering
-Para pagar sus costos en USD, Starlink debe convertir sus ingresos en INR: la variable de riesgo es el USD/INR.
+Para pagar sus costos en USD, SpaceX debe convertir los ingresos INR: la variable de riesgo es el USD/INR.
 
 ## Evolución del tipo de cambio USD/INR
 
@@ -221,11 +222,13 @@ Porcentaje de los ingresos netos & 23,00\,\% \\
 :::
 
 ::: {.column width="38%"}
-**Supuestos más importantes**
+**Supuestos más importantes** 
 
-- Tipo de cambio base: 88 INR/USD.
-- Modelo de un año con ingresos en rupias constantes.
-- India como mercado promedio: 4.600.000 clientes entre 118 mercados.
+- Tipo de cambio base: 88 INR/USD. \vspace{0.2cm}
+
+- Modelo de un año con ingresos en rupias constantes.\vspace{0.2cm}
+
+- India como mercado promedio: 4.600.000 clientes entre 118 mercados.\vspace{0.2cm}
 :::
 
 ::::
@@ -242,7 +245,7 @@ Volatilidad histórica del USD/INR: 3,8 % anual.
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{lrrr}
 \hline
-\rowcolor{tinta}\textcolor{white}{\textbf{Dato}} & \textcolor{white}{\textbf{S0 - 10\,\%}} & \textcolor{white}{\textbf{Base}} & \textcolor{white}{\textbf{S0 + 10\,\%}} \\
+\rowcolor{tinta}\textcolor{white}{\textbf{Dato}} & \textcolor{white}{\textbf{$S_{0}$ - 10\,\%}} & \textcolor{white}{\textbf{Base}} & \textcolor{white}{\textbf{$S_{0}$ + 10\,\%}} \\
 \hline
 Tipo de cambio & 79,2 & 88 & 96,8 \\
 Ingreso neto año 1 & {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210 \\
@@ -255,10 +258,10 @@ Cambio del ingreso & \$8.754.932,08 & \$0,00 & -\$7.163.126,25 \\
 \end{table}
 
 \vspace{0.2cm}
-
-Bajo el modelo lognormal, la probabilidad de que el USD/INR
-aumente al menos un 10\ \% al finalizar un año es de 0,57\ \%,
-y la de que disminuya al menos un 10\ \% es de 0,29\ \%.
+\small
+- Bajo el modelo lognormal, la probabilidad de que el USD/INR
+aumente al menos un 10 \% al finalizar un año es de 0,57 \%,
+y la de que disminuya al menos un 10 \% es de 0,29 \%.
 
 ## Análisis de sensibilidad: modificación del tipo cambio en ±20% 
 
@@ -268,7 +271,7 @@ y la de que disminuya al menos un 10\ \% es de 0,29\ \%.
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{lrrr}
 \hline
-\rowcolor{tinta}\textcolor{white}{\textbf{Dato}} & \textcolor{white}{\textbf{S0 - 20\,\%}} & \textcolor{white}{\textbf{Base}} & \textcolor{white}{\textbf{S0 + 20\,\%}} \\
+\rowcolor{tinta}\textcolor{white}{\textbf{Dato}} & \textcolor{white}{\textbf{$S_{0}$ - 20\,\%}} & \textcolor{white}{\textbf{Base}} & \textcolor{white}{\textbf{$S_{0}$ + 20\,\%}} \\
 \hline
 Tipo de cambio & 70,4 & 88 & 105,6 \\
 Ingreso neto año 1 & {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210 \\
@@ -281,10 +284,10 @@ Cambio del ingreso & \$19.698.597,19 & \$0,00 & -\$13.132.398,13 \\
 \end{table}
 
 \vspace{0.2cm}
-
-Bajo el modelo lognormal, la probabilidad de que el USD/INR
-aumente o disminuya al menos un 20\ \% al finalizar un año
-es inferior al 0,01\ \% en cada dirección.
+\small
+- Bajo el modelo lognormal, la probabilidad de que el USD/INR
+aumente o disminuya al menos un 20 \% al finalizar un año
+es inferior al 0,01 \% en cada dirección.
 
 
 ## Análisis de sensibilidad: modificación del tipo cambio en ±30%
@@ -295,7 +298,7 @@ es inferior al 0,01\ \% en cada dirección.
 \renewcommand{\arraystretch}{1.3}
 \begin{tabular}{lrrr}
 \hline
-\rowcolor{tinta}\textcolor{white}{\textbf{Dato}} & \textcolor{white}{\textbf{S0 - 30\,\%}} & \textcolor{white}{\textbf{Base}} & \textcolor{white}{\textbf{S0 + 30\,\%}} \\
+\rowcolor{tinta}\textcolor{white}{\textbf{Dato}} & \textcolor{white}{\textbf{$S_{0}$ - 30\,\%}} & \textcolor{white}{\textbf{Base}} & \textcolor{white}{\textbf{$S_{0}$ + 30\,\%}} \\
 \hline
 Tipo de cambio &  61,6 & 88 & 114,4 \\
 Ingreso neto año 1 &  {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210  & {\rupeafont ₹}6.933.906.210  \\
@@ -308,7 +311,7 @@ Cambio del ingreso & \$33.769.023,75 & \$0,00 & -\$18.183.320,48 \\
 \end{table}
 
 \vspace{0.2cm}
-
-Bajo el modelo lognormal, la probabilidad de que el USD/INR
-aumente o disminuya al menos un 30\ \% al finalizar un año
-es inferior al 0,01\ \% en cada dirección.
+\small
+- Bajo el modelo lognormal, la probabilidad de que el USD/INR
+aumente o disminuya al menos un 30 \% al finalizar un año
+es inferior al 0,01 \% en cada dirección.
