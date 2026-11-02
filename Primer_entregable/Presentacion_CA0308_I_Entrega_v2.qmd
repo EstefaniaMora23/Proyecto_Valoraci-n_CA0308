@@ -1,0 +1,314 @@
+---
+title: "Proyecto grupal: Valoración de instrumentos financieros I"
+subtitle: "Primer entregable: contexto y exposición al riesgo"
+author: "Alexandra González, Estefanía Mora y César Salazar"
+format:
+  beamer:
+    theme: moloch
+    themeoptions:
+      - progressbar=frametitle
+    toc: false
+    aspectratio: 169
+    navigation: empty
+    fontsize: 11pt
+    number-sections: false
+    include-in-header:
+      - file: estilo_starlink.tex
+---
+
+
+## Caso asignado: Starlink en India
+:::: columns
+::: column
+\vspace{0.7cm}
+- **Publicación del artículo**: año 2026 \vspace{0.7cm}
+
+- **Autoría**: Suvodip Sen \vspace{0.7cm}
+
+- **Starlink**: una constelación satelital que utiliza una órbita terrestre baja para ofrecer internet de banda ancha. \vspace{0.7cm}
+:::
+::: column
+\vspace{0.5cm}
+\centering
+\includegraphics[width=6.5cm]{starlink.jpeg}
+\vfill
+:::
+::::
+
+## Contextualización de la empresa: SpaceX 
+###
+\small
+- Empresa estadounidense fundada por Elon Musk en el año 2002, cuya sede se sitúa en California. \vspace{0.3cm}
+
+- **Negocio**: la fabricación de naves espaciales, la prestación de servicios de lanzamiento y las comunicaciones por satélite. \vspace{0.3cm}
+
+- **Clientes**: ha mantenido contratos con la NASA, el Departamento de Guerra de los Estados Unidos, la línea de cruceros Carnival, la compañía ferroviaria Brightline y la cadena de tiendas Casey's. \vspace{0.3cm}
+
+###
+\centering
+\includegraphics[width=5cm]{spacex.jpg}
+
+## Problema que plantea el caso
+### 
+\vspace{0.25cm}
+**El desafío estratégico que enfrentó Starlink al ingresar al mercado de internet satelital de India en el año 2025.**  \vspace{0.3cm}
+
+###
+Principales desafíos: 
+\small
+
+- Un sector de telecomunicaciones altamente competitivo.  
+
+- Un mercado dominado por operadores previamente establecidos, como Reliance Jio y Bharti Airtel. 
+
+- La presencia de regulaciones complejas. 
+
+- El precio de Starlink era entre 10 y 14 veces superior al de los proveedores locales.  
+
+
+
+## El mercado en la fecha de corte 
+\small
+
+:::: {.columns align="top"}
+
+::: {.column width="50%"}
+
+\vspace{0.30cm}
+
+- **Precios estimados**: equipo de 25 000 a 35 000 rupias y mensualidad de 5 000 a 7 000 rupias, sin confirmación oficial. Planes locales desde 399 rupias mensuales. \vspace{0.3cm}
+
+- **Plan del modelo**: cuota empresarial de 10 469 rupias mensuales. \vspace{0.3cm}
+
+- **Tasas**: India redujo la tasa repo de 6,25% a 6,00% el 9 de abril. Estados Unidos mantenía un rango de 4,25% a 4,50%.
+
+:::
+
+::: {.column width="50%"}
+
+\vspace{0.30cm}
+
+- **Regulación**: autorizaciones pendientes y discusión sobre asignación, cargos y duración del espectro. Starlink solicitaba 20 años. \vspace{0.3cm}
+
+- **Competencia**: Jio y Airtel tenían infraestructura, clientes y alianzas satelitales con SES y OneWeb, respectivamente. \vspace{0.3cm}
+
+- **Alianzas**: Jio y Airtel facilitarían la distribución de Starlink, aunque también participaban en proyectos competidores.
+
+:::
+
+::::
+
+
+## La variable de riesgo: el tipo de cambio USD/INR
+\vspace{0.3cm}
+
+:::: {.columns align="top"}
+
+::: {.column width="42%"}
+\centering
+\textbf{\Huge INR}
+
+\vspace{0.1cm}
+\small Ingresos en rupias
+
+- Cuota mensual y equipo.
+- Impuestos y cargos regulatorios.
+:::
+
+::: {.column width="16%"}
+\centering
+\vspace{0.4cm}
+\textcolor{oro}{\Huge\textbf{$\rightarrow$}}
+:::
+
+::: {.column width="42%"}
+\centering
+\textbf{\Huge USD}
+
+\vspace{0.1cm}
+\small Costos en dólares
+
+- Fabricación y lanzamiento de satélites.
+- Terminales importados.
+:::
+
+::::
+
+\vspace{0.5cm}
+\centering
+Para pagar sus costos en USD, Starlink debe convertir sus ingresos en INR: la variable de riesgo es el USD/INR.
+
+## Evolución del tipo de cambio USD/INR
+
+\small
+
+:::: {.columns align="center"}
+
+::: {.column width="40%"}
+
+\vspace{0.30cm}
+
+- **Serie diaria**: enero de 2022 a abril de 2025. \vspace{0.25cm}
+
+- **Base del modelo**: USD/INR de 88, según el caso. \vspace{0.25cm}
+
+- **Cierre de abril**: USD/INR de 84,49. \vspace{0.25cm}
+
+- **Riesgo cambiario**: una subida del USD/INR aumenta los costos en rupias de las obligaciones en dólares, con ingresos en rupias constantes.
+
+:::
+
+::: {.column width="60%"}
+
+\vspace{0.30cm}
+
+\centering
+\includegraphics[width=\linewidth]{tipo_de_cambio.png}
+
+:::
+
+::::
+
+
+## La posición de la empresa
+
+:::: columns 
+::: column
+\vspace{0.2cm}
+\small
+- SpaceX asume costos en dólares y percibe ingresos en rupias. \vspace{0.3cm}
+ 
+- La empresa asume una **posición corta** desde la perspectiva de las **rupias**: necesita vender las rupias que ingresan. \vspace{0.3cm}
+
+- La empresa adopta una **posición larga** desde la perspectiva de los **dólares**: requiere adquirir dólares para cubrir sus gastos. \vspace{0.3cm}
+
+- Cuando el precio sube, el dólar se aprecia, la empresa pierde dinero. 
+:::
+::: column
+\vspace{1.3cm}
+\centering
+\includegraphics[width=5.3cm]{dolar_rupia.png}
+\vfill
+:::
+::::
+
+## El dinero de la empresa y el precio de la variable de riesgo
+\small
+
+:::: {.columns align="top"}
+
+::: {.column width="58%"}
+
+\renewcommand{\arraystretch}{1.25}
+\begin{tabular}{lr}
+\hline
+\rowcolor{tinta}\textcolor{white}{\textbf{Concepto}} & \textcolor{white}{\textbf{Monto}} \\
+\hline
+Suscriptores en India (N) & 38.983 \\
+Ingreso neto año 1 & {\rupeafont ₹}6.933.906.210 \\
+Terminales importados & \$13.605.067,00 \\
+Segmento espacial asignado & \$4.515.883,94 \\
+\hline
+\rowcolor{oro!30}\textbf{Total afectado por el USD/INR} & \textbf{\$18.120.950,94} \\
+Total en rupias a 88 INR/USD & {\rupeafont ₹}1.594.643.682,74 \\
+Porcentaje de los ingresos netos & 23,00\,\% \\
+\hline
+\end{tabular}
+
+:::
+
+::: {.column width="4%"}
+:::
+
+::: {.column width="38%"}
+**Supuestos más importantes**
+
+- Tipo de cambio base: 88 INR/USD.
+- Modelo de un año con ingresos en rupias constantes.
+- India como mercado promedio: 4.600.000 clientes entre 118 mercados.
+:::
+
+::::
+
+\vspace{0.3cm}
+\centering
+Volatilidad histórica del USD/INR: 3,8 % anual.
+
+## Análisis de sensibilidad: modificación del tipo cambio en ±10%
+
+\begin{table}[ht]
+\centering
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{lrrr}
+\hline
+\rowcolor{tinta}\textcolor{white}{\textbf{Dato}} & \textcolor{white}{\textbf{S0 - 10\,\%}} & \textcolor{white}{\textbf{Base}} & \textcolor{white}{\textbf{S0 + 10\,\%}} \\
+\hline
+Tipo de cambio & 79,2 & 88 & 96,8 \\
+Ingreso neto año 1 & {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210 \\
+Ingreso neto año 1 & \$87.549.320,83 & \$78.794.388,75 & \$71.631.262,50 \\
+Total costos & \$18.120.950,94 & \$18.120.950,94 & \$18.120.950,94 \\
+Cambio del ingreso & \$8.754.932,08 & \$0,00 & -\$7.163.126,25 \\
+\textbf{Cambio porcentual del ingreso} & \textbf{11,11\,\%} & \textbf{0,00\,\%} & \textbf{-9,09\,\%} \\
+\hline
+\end{tabular}
+\end{table}
+
+\vspace{0.2cm}
+
+Bajo el modelo lognormal, la probabilidad de que el USD/INR
+aumente al menos un 10\ \% al finalizar un año es de 0,57\ \%,
+y la de que disminuya al menos un 10\ \% es de 0,29\ \%.
+
+## Análisis de sensibilidad: modificación del tipo cambio en ±20% 
+
+\begin{table}[ht]
+\centering
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{lrrr}
+\hline
+\rowcolor{tinta}\textcolor{white}{\textbf{Dato}} & \textcolor{white}{\textbf{S0 - 20\,\%}} & \textcolor{white}{\textbf{Base}} & \textcolor{white}{\textbf{S0 + 20\,\%}} \\
+\hline
+Tipo de cambio & 70,4 & 88 & 105,6 \\
+Ingreso neto año 1 & {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210 \\
+Ingreso neto año 1 & \$98.492.985,94 & \$78.794.388,75 & \$65.661.990,63 \\
+Total costos & \$18.120.950,94 & \$18.120.950,94 & \$18.120.950,94 \\
+Cambio del ingreso & \$19.698.597,19 & \$0,00 & -\$13.132.398,13 \\
+\textbf{Cambio porcentual del ingreso} & \textbf{25,00\,\%} & \textbf{0,00\,\%} & \textbf{-16,67\,\%} \\
+\hline
+\end{tabular}
+\end{table}
+
+\vspace{0.2cm}
+
+Bajo el modelo lognormal, la probabilidad de que el USD/INR
+aumente o disminuya al menos un 20\ \% al finalizar un año
+es inferior al 0,01\ \% en cada dirección.
+
+
+## Análisis de sensibilidad: modificación del tipo cambio en ±30%
+
+\begin{table}[ht]
+\centering
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{lrrr}
+\hline
+\rowcolor{tinta}\textcolor{white}{\textbf{Dato}} & \textcolor{white}{\textbf{S0 - 30\,\%}} & \textcolor{white}{\textbf{Base}} & \textcolor{white}{\textbf{S0 + 30\,\%}} \\
+\hline
+Tipo de cambio &  61,6 & 88 & 114,4 \\
+Ingreso neto año 1 &  {\rupeafont ₹}6.933.906.210 & {\rupeafont ₹}6.933.906.210  & {\rupeafont ₹}6.933.906.210  \\
+Ingreso neto año 1 & \$112.563.412,50 & \$78.794.388,75 & \$60.611.068,27 \\
+Total costos  & \$18.120.950,94 & \$18.120.950,94 & \$18.120.950,94 \\
+Cambio del ingreso & \$33.769.023,75 & \$0,00 & -\$18.183.320,48 \\
+\textbf{Cambio porcentual del ingreso} & \textbf{42,86\,\%} & \textbf{0,00\,\%} & \textbf{-23,08\,\%} \\
+\hline
+\end{tabular}
+\end{table}
+
+\vspace{0.2cm}
+
+Bajo el modelo lognormal, la probabilidad de que el USD/INR
+aumente o disminuya al menos un 30\ \% al finalizar un año
+es inferior al 0,01\ \% en cada dirección.

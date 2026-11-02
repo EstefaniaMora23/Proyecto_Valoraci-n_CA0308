@@ -1,0 +1,26 @@
+% ---------- Paleta "Tinta y oro" ----------
+\definecolor{tinta}{HTML}{0B1D33}
+\definecolor{oro}{HTML}{E3A82B}
+\definecolor{papel}{HTML}{F7F5F0}
+\definecolor{rojo}{HTML}{B3261E}
+\definecolor{verde}{HTML}{1E7B4F}
+
+% ---------- Colores del tema moloch ----------
+\setbeamercolor{normal text}{fg=tinta,bg=papel}
+\setbeamercolor{frametitle}{fg=white,bg=tinta}
+\setbeamercolor{alerted text}{fg=oro}
+\setbeamercolor{progress bar}{fg=oro,bg=tinta}
+\setbeamercolor{title separator}{fg=oro,bg=tinta}
+
+% ---------- Tipografia y espacios ----------
+\setbeamertemplate{footline}[frame number]
+\setbeamerfont{author}{size=\small, series=\itshape}
+\setlength{\parskip}{0.8cm}
+
+% ---------- Tablas con filas de color ----------
+\usepackage{colortbl}
+
+% ---------- Fuente para el simbolo de la rupia ----------
+\IfFontExistsTF{Noto Sans}%
+  {\newfontfamily\rupeafont{Noto Sans}}%
+  {\newfontfamily\rupeafont{DejaVu Sans}}
