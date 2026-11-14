@@ -1,0 +1,120 @@
+---
+title: "Proyecto grupal: Valoración de instrumentos financieros I"
+subtitle: "Segundo entregable: diseño y valoración de la cobertura"
+author: "Alexandra González, Estefanía Mora y César Salazar"
+format:
+  beamer:
+    theme: moloch
+    themeoptions:
+      - progressbar=frametitle
+    toc: false
+    aspectratio: 169
+    navigation: empty
+    fontsize: 11pt
+    number-sections: false
+    include-in-header:
+      - file: estilo_starlink.tex
+---
+
+
+## ¿SpaceX posee cobertura cambiaria?
+###
+\small
+\vspace{0.3cm}
+- SpaceX opera en una diversidad de países, ejecutando transacciones en múltiples divisas diferentes al dólar estadounidense. \vspace{0.3cm}
+
+- La empresa está expuesta al riesgo cambiario: las fluctuaciones en los tipos de cambio y el impacto derivado de la conversión a dólares estadounidenses de los diferentes flujos.  \vspace{0.3cm}
+
+- Declaró el 12 de junio de 2026 ante la Comisión de Bolsa y Valores de Estados Unidos no poseer cobertura cambiaria alguna. \vspace{0.3cm}
+
+\centering
+\includegraphics[width=6cm]{spacex.jpg}
+
+
+## Recapitulando lo encontrado en la primera entrega
+
+\small
+
+:::: {.columns align="center"}
+
+::: {.column width="45%"}
+
+\vspace{0.30cm}
+
+- SpaceX asume costos en dólares y percibe ingresos en rupias. \vspace{0.25cm}
+
+- **Principal riesgo**: el tipo de cambio USD/INR. \vspace{0.25cm}
+
+- La empresa asume una posición larga sobre la variable de riesgo. \vspace{0.25cm}
+
+- La **volatilidad anual histórica** del tipo de cambio USD/INR tiene un valor de 3,80 %.
+
+:::
+
+::: {.column width="55%"}
+
+\vspace{0.30cm}
+
+\centering
+\includegraphics[width=\linewidth]{tipo_de_cambio.png}
+
+:::
+
+::::
+
+## Estructura general de la cobertura propuesta 
+
+\begin{table}[ht]
+\centering
+\small
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{p{3.5cm} p{4cm} p{5.7cm}}
+\hline
+\rowcolor{tinta}
+\textcolor{white}{\textbf{Derivado financiero}} &
+\textcolor{white}{\textbf{Posición de la empresa}} &
+\textcolor{white}{\textbf{Función dentro de la estructura}} \\
+\hline
+Opción Call & Larga: compra & Protege a la empresa frente a una subida abrupta del tipo de cambio, a la vez que le permite beneficiarse de una potencial depreciación del dólar.  \\
+\hline
+Opción Put & Corta: venta & Genera ingresos para financiar total o parcialmente la prima de la opción Call. \\
+\hline
+Contrato Forward & Larga: compra & Asegura un tipo de cambio fijo sin necesidad de desembolsar una prima, reduciendo la incertidumbre asociada al riesgo cambiario. \\
+\hline
+\end{tabular}
+\end{table}
+
+
+## ¿Es esta una cobertura dinámica?
+
+\small
+- Idealmente, la estrategia **debería adoptar un carácter dinámico**. \vspace{0.3cm}
+
+- Sin embargo, dadas las **limitaciones de información** del caso asignado, no resulta viable implementar una estrategia de cobertura dinámica. \vspace{0.3cm}
+
+- Actualmente, SpaceX ni siquiera ha entrado en operación dentro del mercado indio a causa de la falta de autorizaciones. \vspace{0.3cm}
+
+- En vista de lo explicado antes, se considera mayormente apropiado emplear una **estrategia de cobertura estática**. \vspace{0.3cm}
+
+## Justificación de la propuesta: resultados de la primera entrega
+
+:::: columns 
+::: column
+\vspace{0.2cm}
+\small
+- La propuesta responde directamente a la exposición cambiaria identificada.  \vspace{0.4cm}
+ 
+- La estructura de derivados protege a la empresa frente a una depreciación de la rupia, reduce parcialmente el costo de las primas y fija anticipadamente el tipo de cambio. \vspace{0.4cm}
+
+- La volatilidad histórica anual del 3,80 % evidencia que las fluctuaciones del tipo fueron relativamente moderadas. \vspace{0.4cm}
+
+ 
+:::
+::: column
+\vspace{1.3cm}
+\centering
+\includegraphics[width=5.3cm]{dolar_rupia.png}
+\vfill
+:::
+
+
