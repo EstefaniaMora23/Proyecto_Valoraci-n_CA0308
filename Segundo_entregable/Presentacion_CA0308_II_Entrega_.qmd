@@ -117,4 +117,93 @@ Contrato Forward & Larga: compra & Asegura un tipo de cambio fijo sin necesidad 
 \vfill
 :::
 
+::::
+
+## Estimación del precio
+
+- **Forward** valorado bajo ausencia de arbitraje.
+- **Opciones europeas** uso del modelo Garman–Kohlhagen.
+
+\vspace{1cm}
+
+| Parámetro | Valor |
+|---|---:|
+| Fecha de referencia | 30 de abril de 2025 |
+| Horizonte | 1 año |
+| USD/INR inicial | 88 |
+| Tasa continua INR | 5,7467 % |
+| Tasa continua USD | 3,8134 % |
+| Volatilidad anual | 3,80 % |
+
+## Precios estimados
+
+**Collar** con compra de call a strike 90 y venta de put a strike 88.
+
+\vspace{1cm}
+
+| Concepto | Estimación |
+|---|---:|
+| Tipo de cambio forward USD/INR | 89,717877 |
+| Prima de la call | 1,157292 |
+| Prima de la put | 0,621919 |
+| Prima neta del collar | 0,535374 |
+
+- Primas expresadas en **rupias por dólar de nominal**.
+- La put financia parcialmente la call.
+- Flujo cubierto concentrado al vencimiento.
+
+## Costo y liquidez: prima inicial y margen inicial
+
+**Cobertura del 70 %** sobre un nominal de referencia de USD 78.794.388,75.
+
+- **Nominal cubierto** de USD 55.156.072,13.
+- Distribución de **50 % forward y 50 % collar**.
+
+\vspace{1cm}
+
+| Concepto | Monto en USD |
+|---|---:|
+| Prima pagada por la call | 362.680,09 |
+| Prima recibida por la put | 194.901,06 |
+| **Prima neta pagada** | **167.779,02** |
+
+El forward se contrató sin prima inicial, al precio teórico de mercado.
+
+## Costo y liquidez: prima inicial y margen inicial
+
+\vspace{1cm}
+
+| Concepto | Monto en USD |
+|---|---:|
+| Garantía del forward | 1.378.901,80 |
+| Garantía del collar | 1.378.901,80 |
+| **Garantías totales** | **2.757.803,61** |
+| **Liquidez inicial, incluida la prima neta** | **2.925.582,63** |
+
+- Garantía del **5 % por estrategia**, sin compensación.
+- Referencia ilustrativa para el forward; supuesto propio para el collar.
+
+## Diagrama de pagos
+
+::: {.columns}
+
+::: {.column width="65%"}
+
+![](diagrama_pagos.pdf){width=100%}
+
+:::
+
+::: {.column width="35%"}
+
+\vspace{1cm}
+
+- **Forward** cruza cero en USD/INR ≈ 89,72.
+- **Collar** paga cero entre 88 y 90.
+- **Estrategia total** suma ambos pagos.
+- Pagos en **millones de INR**, sin primas ni ingresos de Starlink.
+
+:::
+
+:::
+
 
