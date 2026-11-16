@@ -205,9 +205,9 @@ El forward se contrató sin prima inicial, al precio teórico de mercado.
 
 \small
 
-- **Escenario adverso**: mayor caída del USD/INR en 252 días hábiles (2015–2025), de 88 a 80,98 INR por USD (**7,98 %**). \vspace{0.2cm}
+- **Escenario adverso**: mayor caída del USD/INR en 252 días hábiles (2015–2025), de 88 a 80,98 INR por USD (**7,98 %**). \vspace{0.1cm}
 
-- **Margen adicional** ≈ nominal cubierto × caída máxima; la call larga no genera llamadas de margen. \vspace{0.4cm}
+- **Margen adicional** ≈ nominal cubierto × caída máxima; la call larga no genera llamadas de margen. \vspace{0.1cm}
 
 | Concepto | Monto en USD |
 |---|---:|
@@ -216,8 +216,6 @@ El forward se contrató sin prima inicial, al precio teórico de mercado.
 | **Liquidez inicial** | **2.925.582,63** |
 | Margen adicional | 4.400.316,26 |
 | **Liquidez máxima** | **7.325.898,89** |
-
-\vspace{0.3cm}
 
 - El margen se exige de inmediato y el ingreso llega gradualmente: se requeriría **línea de crédito o respaldo de la matriz**.
 
