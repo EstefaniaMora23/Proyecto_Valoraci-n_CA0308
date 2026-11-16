@@ -152,6 +152,24 @@ Contrato Forward & Larga: compra & Asegura un tipo de cambio fijo sin necesidad 
 - La put financia parcialmente la call.
 - Flujo cubierto concentrado al vencimiento.
 
+## Diseño de niveles de cobertura
+
+\small
+
+- Se cubre el **ingreso neto anual**: 6.933,9 millones de INR, equivalentes a **USD 78.794.388,75**. \vspace{0.3cm}
+
+- Composición fija: **50 % forward largo** y **50 % collar** (call larga con $K = 90$ y put corta con $K = 88$, de igual nominal). \vspace{0.3cm}
+
+
+| Nivel | Nominal cubierto (USD) | Forward largo (USD) | Call larga y put corta (USD) |
+|---|---:|---:|---:|
+| 30 % | 23.638.316,63 | 11.819.158,31 | 11.819.158,31 |
+| **70 %** | **55.156.072,13** | **27.578.036,06** | **27.578.036,06** |
+| 100 % | 78.794.388,75 | 39.397.194,38 | 39.397.194,38 |
+
+\vspace{0.3cm}
+
+
 ## Costo y liquidez: prima inicial y margen inicial
 
 **Cobertura del 70 %** sobre un nominal de referencia de USD 78.794.388,75.
@@ -182,6 +200,26 @@ El forward se contrató sin prima inicial, al precio teórico de mercado.
 
 - Garantía del **5 % por estrategia**, sin compensación.
 - Referencia ilustrativa para el forward; supuesto propio para el collar.
+
+## Costo y liquidez: margen adicional y liquidez máxima
+
+\small
+
+- **Escenario adverso**: mayor caída del USD/INR en 252 días hábiles (2015–2025), de 88 a 80,98 INR por USD (**7,98 %**). \vspace{0.2cm}
+
+- **Margen adicional** ≈ nominal cubierto × caída máxima; la call larga no genera llamadas de margen. \vspace{0.4cm}
+
+| Concepto | Monto en USD |
+|---|---:|
+| Prima neta pagada | 167.779,02 |
+| Margen inicial | 2.757.803,61 |
+| **Liquidez inicial** | **2.925.582,63** |
+| Margen adicional | 4.400.316,26 |
+| **Liquidez máxima** | **7.325.898,89** |
+
+\vspace{0.3cm}
+
+- El margen se exige de inmediato y el ingreso llega gradualmente: se requeriría **línea de crédito o respaldo de la matriz**.
 
 ## Diagrama de pagos
 
